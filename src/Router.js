@@ -29,7 +29,7 @@ const Router = () => {
         <HashRouter basename="https://bhadresh-malankiya.github.io/Portfolio/">
             <Navbar/>
             <Routes>
-                <Route path="/" element={lazyLoaded(<Home />)} />
+                <Route exact path="/" element={lazyLoaded(<Home />)} />
             </Routes>
         </HashRouter>
     )
