@@ -26,12 +26,12 @@ const lazyLoaded = (component) => {
 
 const Router = () => {
     return (
-        <HashRoute basename="https://bhadresh-malankiya.github.io/Portfolio/">
+        <HashRouter basename="https://bhadresh-malankiya.github.io/Portfolio/">
             <Navbar/>
             <Routes>
                 <Route path="/" element={lazyLoaded(<Home />)} />
             </Routes>
-        </HashRoute>
+        </HashRouter>
     )
 }
 
