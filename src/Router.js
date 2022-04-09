@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { Spinner } from 'react-bootstrap';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import CenteredContainer from './components/utils/Containers/CenteredContainer';
 import Navbar from "./components/Common/Navbar/Navbar";
 
