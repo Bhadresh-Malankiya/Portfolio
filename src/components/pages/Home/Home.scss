@@ -1,0 +1,24 @@
+@import "/src/assets/scss/sizes";
+@import "/src/assets/scss/colors";
+
+//SELECTOR TYPE : ID
+#triangle {
+	background-color: $black;
+	clip-path: polygon(0 0, 10% 100%, 0 100%);
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    left: 53%;
+    top: 0%;
+	z-index: 1;
+	box-shadow: 10px 0 5px -2px #888;
+}
+
+//SELECTOR TYPE : CLASSNAME
+.Home{
+	color: $lightgrey;
+	&_textOrange{
+		color: $orange;
+	}
+
+}
